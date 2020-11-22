@@ -79,9 +79,7 @@ end
 
 `describe` is a method provided by our test library, RSpec. Remember, methods
 let us group up a set of statements into a sort of bundle. Whenever that
-bundle's name is called, all the statements inside are called in order. This is
-incredibly useful when we need to run the same statements over and over (as we
-do running and rerunning tests).
+bundle's name is called, all the statements inside are called in order. This is incredibly useful when we need to run the same statements over and over (as we do running and rerunning tests).
 
 The `describe` method holds our tests. Just after `describe` is a string,
 `"./calculator.rb"`. Here, RSpec is telling us that the tests that come
